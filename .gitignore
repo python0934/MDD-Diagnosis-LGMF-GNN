@@ -1,0 +1,46 @@
+# ============ 数据集（大文件） ============
+data2/
+data-labels/
+nilearn_data/
+SRPBS_OPEN/
+derivatives/
+SRPBS_derivatives/
+
+# ============ 开题报告 / 毕设文档 ============
+开题报告*.md
+
+# ============ 临时文件 / 脚本 ============
+check_labels.py
+_paper_text.txt
+LGMF-GNN优化方案.md
+
+# ============ Python ============
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ============ 模型训练输出 ============
+**/save_models/
+**/fig/
+*.pth
+emb_list_*.npy
+HC_local_*.npy
+MDD_local_*.npy
+label.npy
+ind.npy
+
+# ============ IDE ============
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ============ OS ============
+.DS_Store
+Thumbs.db
+desktop.ini
